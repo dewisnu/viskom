@@ -25,7 +25,3 @@ class detectorObj():
                 objects_contours.append(cnt)
 
         return objects_contours
-
-    # def get_objects_rect(self):
-    #     box = cv2.boxPoints(rect)  # cv2.boxPoints(rect) for OpenCV 3.x
-    #     box = np.int0(box)
